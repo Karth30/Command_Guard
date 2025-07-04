@@ -33,34 +33,35 @@ It enforces **restricted command control**, enables **admin review of sensitive 
 
 ### 1. Clone the repository
 
-bash
+```bash
 git clone https://github.com/your-username/commandguard.git
 cd commandguard
-
+```
 
 ---
 
 ### 2. Backend Setup (/backend)
 
-bash
+```bash
 cd backend
 npm install
+```
 
+#### Create `.env` file inside `backend/`:
 
-#### Create .env file inside backend/:
-
+```
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=your_mysql_password
 DB_NAME=command_db
 JWT_SECRET=your_jwt_secret
-
+```
 
 #### Create DB + Tables
 
 Run the following SQL script in **DBeaver** or **MySQL CLI**:
 
-sql
+```sql
 CREATE DATABASE IF NOT EXISTS command_db;
 USE command_db;
 
@@ -118,29 +119,32 @@ INSERT IGNORE INTO users (username,password,team_id) VALUES
 
 INSERT IGNORE INTO managers (username,password) VALUES
   ('mgr1','mgrpass123');
-
+```
 
 #### Run the backend
 
-bash
+```bash
 node app.js
+```
 
-
-By default, server runs at http://localhost:5000
+By default, server runs at `http://localhost:5000`
 
 ---
+
 
 ### 3. Frontend Setup (/frontend)
 
-bash
+
+```bash
 cd ../frontend
 npm install
 npm run dev
+```
 
-
-App runs at: http://localhost:5173
+App runs at: `http://localhost:5173`
 
 ---
+
 
 ## Default Users
 
