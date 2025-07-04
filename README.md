@@ -156,17 +156,30 @@ App runs at: `http://localhost:5173`
 
 <details>
 <summary>Login Page</summary>
-<img src="https://via.placeholder.com/800x400?text=Login+UI+Preview" />
+<img src=![image](https://github.com/user-attachments/assets/901cafb2-9ab3-4176-8dd6-b2a913424403)
+ />
+<img src=![image](https://github.com/user-attachments/assets/066344d9-7787-431f-a641-3c27eff58ce4)
+
+
+ />
+<img src=![image](https://github.com/user-attachments/assets/56b9db09-654f-493c-be42-cd7142da913e)
+
+ />
 </details>
 
 <details>
 <summary>User Dashboard</summary>
-<img src="https://via.placeholder.com/800x400?text=User+Dashboard+UI" />
+<img src=![image](https://github.com/user-attachments/assets/bf22fc0c-364e-4350-ada9-d441681f25e5)
+ />
 </details>
 
 <details>
 <summary>Manager Dashboard</summary>
-<img src="https://via.placeholder.com/800x400?text=Manager+Dashboard+UI" />
+<img src=![image](https://github.com/user-attachments/assets/4bf7009f-5fd3-4bd5-bf89-d9489e7dae59)
+ />
+<img src=![image](https://github.com/user-attachments/assets/0f44e3f4-1dda-4b32-9bce-f34b1cb153e5)
+
+ />
 </details>
 
 ---
