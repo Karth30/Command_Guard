@@ -9,7 +9,7 @@ It enforces **restricted command control**, enables **admin review of sensitive 
 ## Features
 
 - **User Login** with Team & Passkey
-- **Restricted command filtering** (e.g., `rm -rf`, `shutdown`)
+- **Restricted command filtering** (e.g., rm -rf, shutdown)
 - **Manager Dashboard** to:
   - Approve or reject forbidden commands
   - View and filter all user activity by team/user/date
@@ -33,35 +33,34 @@ It enforces **restricted command control**, enables **admin review of sensitive 
 
 ### 1. Clone the repository
 
-```bash
+bash
 git clone https://github.com/your-username/commandguard.git
 cd commandguard
-```
+
 
 ---
 
-### 2. Backend Setup (`/backend`)
+### 2. Backend Setup (/backend)
 
-```bash
+bash
 cd backend
 npm install
-```
 
-#### Create `.env` file inside `backend/`:
 
-```
+#### Create .env file inside backend/:
+
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=your_mysql_password
 DB_NAME=command_db
 JWT_SECRET=your_jwt_secret
-```
+
 
 #### Create DB + Tables
 
 Run the following SQL script in **DBeaver** or **MySQL CLI**:
 
-```sql
+sql
 CREATE DATABASE IF NOT EXISTS command_db;
 USE command_db;
 
@@ -119,27 +118,27 @@ INSERT IGNORE INTO users (username,password,team_id) VALUES
 
 INSERT IGNORE INTO managers (username,password) VALUES
   ('mgr1','mgrpass123');
-```
+
 
 #### Run the backend
 
-```bash
+bash
 node app.js
-```
 
-By default, server runs at `http://localhost:5000`
+
+By default, server runs at http://localhost:5000
 
 ---
 
-### 3. Frontend Setup (`/frontend`)
+### 3. Frontend Setup (/frontend)
 
-```bash
+bash
 cd ../frontend
 npm install
 npm run dev
-```
 
-App runs at: `http://localhost:5173`
+
+App runs at: http://localhost:5173
 
 ---
 
@@ -156,24 +155,33 @@ App runs at: `http://localhost:5173`
 
 <details>
 <summary>Login Page</summary>
-<img src="https://github.com/user-attachments/assets/901cafb2-9ab3-4176-8dd6-b2a913424403" width="700"/>
-<img src="https://github.com/user-attachments/assets/066344d9-7787-431f-a641-3c27eff58ce4" width="700"/>
-<img src="https://github.com/user-attachments/assets/56b9db09-654f-493c-be42-cd7142da913e" width="700"/>
+  
+![image](https://github.com/user-attachments/assets/901cafb2-9ab3-4176-8dd6-b2a913424403)
+
+![image](https://github.com/user-attachments/assets/066344d9-7787-431f-a641-3c27eff58ce4)
+
+![image](https://github.com/user-attachments/assets/56b9db09-654f-493c-be42-cd7142da913e)
+
 </details>
 
 <details>
 <summary>User Dashboard</summary>
-<img src="https://github.com/user-attachments/assets/bf22fc0c-364e-4350-ada9-d441681f25e5" width="700"/>
+  
+![image](https://github.com/user-attachments/assets/bf22fc0c-364e-4350-ada9-d441681f25e5)
+
 </details>
 
 <details>
 <summary>Manager Dashboard</summary>
-<img src="https://github.com/user-attachments/assets/4bf7009f-5fd3-4bd5-bf89-d9489e7dae59" width="700"/>
-<img src="https://github.com/user-attachments/assets/0f44e3f4-1dda-4b32-9bce-f34b1cb153e5" width="700"/>
-</details>
 
+  ![image](https://github.com/user-attachments/assets/4bf7009f-5fd3-4bd5-bf89-d9489e7dae59)
+
+
+  ![image](https://github.com/user-attachments/assets/0f44e3f4-1dda-4b32-9bce-f34b1cb153e5)
+
+
+</details>
 
 ---
 Every command counts. Every action is accountable.
 ---
-
