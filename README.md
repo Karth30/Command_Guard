@@ -155,7 +155,7 @@ App runs at: http://localhost:5173
 ### Login Page
 
 <img src="https://github.com/user-attachments/assets/901cafb2-9ab3-4176-8dd6-b2a913424403" width ="400" height="250"/>
-<img src="https://github.com/user-attachments/assets/066344d9-7787-431f-a641-3c27eff58ce4" width ="400" height="250"/>
+<img src="https://github.com/user-attachments/assets/e8bb9550-25e9-49c3-b28d-d39a785685e4" width ="400" height="250"/>
 <img src="https://github.com/user-attachments/assets/56b9db09-654f-493c-be42-cd7142da913e" width ="400" height="250"/>
 
 ---
