@@ -34,8 +34,8 @@ It enforces **restricted command control**, enables **admin review of sensitive 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/commandguard.git
-cd commandguard
+git clone https://github.com/Karth30/Command_Guard.git
+cd Command_Guard
 ```
 
 ---
